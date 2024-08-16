@@ -21,7 +21,7 @@ class FourthTests {
 	@Test
 	void secondContextLoads_1() {
 		Uninterruptibles.sleepUninterruptibly(2, TimeUnit.SECONDS);
-		assertEquals(2,2);
+		assertEquals(2,1);
 	}
 
 	@Test
